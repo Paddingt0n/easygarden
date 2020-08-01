@@ -1,0 +1,179 @@
+@media (max-width: 445px) {
+
+  .header {
+    &__inner {
+      .header__top_inner {
+        position: relative;
+        display: flex;
+        align-items: center;
+       
+  
+        .top__icon {
+          margin-right: 6px;
+        }
+  
+        .top__text {
+          font-size: 14px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  
+  .btn {
+    padding: 30px 35px;
+    font-size: 21px;
+  }
+
+  .problems__item {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .header {
+    padding: 0;
+    &__inner {
+      .header__top_inner {
+        .top__icon {
+          margin-right: 6px;
+        }
+  
+        .top__text {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 30px 26px;
+  }
+
+  .section__header {
+    font-size: 27px;
+  }
+
+  .intro {
+    &__inner {
+      .logo {
+        width: 90px;
+        left: 200px;
+        bottom: -295px;
+      }
+
+      .intro__discount {
+        right: 0px;
+      }
+
+      .arm_img {
+        top: 130px;
+      }
+    }
+  }
+
+  .timer {
+    &__arrows {
+      display: none;
+    }
+  }
+
+  .decision {
+    &__item {
+      .section__header {
+        font-size: 22px;
+        line-height: 28px;
+        div {
+          font-size: 18px;
+        }
+      }
+
+      .decision__arrows {
+        display: none;
+      }
+
+      .decision__img {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+
+  .header {
+    &__inner {
+      .header__top_inner {
+        .top__icon {
+          margin-right: 6px;
+        }
+  
+        .top__text {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+
+  .section__header {
+    font-size: 25px;
+  }
+
+  .intro {
+    &__inner {
+      .intro__text {
+        .intro__title {
+          font-size: 37px;
+        }
+      }
+
+      .logo {
+        width: 90px;
+        left: 160px;
+        bottom: -305px;
+      }
+
+      .intro__discount {
+        right: 0;
+        top: 422px;
+      }
+
+      .arm_img {
+        top: 170px;
+      }
+    }
+  }
+
+  .btn {
+    padding: 20px 25px;
+  }
+
+
+  .decision {
+    &__item {
+      .section__header {
+        font-size: 20px;
+        line-height: 28px;
+        div {
+          font-size: 16px;
+          width: 265px;
+        }
+      }
+
+      .decision__arrows {
+        display: none;
+      }
+
+      .decision__img {
+        height: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.page {
+  overflow: hidden;
+}
+body {
+  font-family: GothamProRegular;
+  font-weight: 300;
+  color: #000;
+}
+
+
+
+p {
+  margin: 0;
+  line-height: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.section__header {
+  font-family: GothamProBold; 
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  
+  line-height: 36px;
+  color: #fff;
+  &.red {
+    
+    color: #c0401d;
+    
+  }
+}
+.btn {
+    font-family: GothamProBold;
+    display: inline-block;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    user-select: none;
+    padding: 30px 40px;
+    
+    border-radius: 5px;
+    outline: none;
+    background: rgb(147,80,36) linear-gradient(rgb(253,142,36), rgb(211,87,40) 80%);
+    box-shadow:
+     0 6px rgb(192,76,29),
+     0 3px 15px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+  
+  &:hover {
+    background: rgb(167,91,41) linear-gradient(rgb(126,69,31), rgb(167,91,41) 80%);
+  }
+  &:active {
+    background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+    box-shadow:
+     0 2px rgb(86,38,6),
+     0 1px 6px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+  }
+}
